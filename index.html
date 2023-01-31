@@ -18,6 +18,13 @@
       .gradient {
         background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
       }
+      label {
+        text-align: left;
+      }
+      input {
+        color: black;
+        padding-left: 3px;
+      }
     </style>
   </head>
   <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
@@ -47,18 +54,20 @@
               <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Home</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">Pricing</a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#Pricing">Pricing</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">Share</a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#Get_In_Contact">Contact us</a>
             </li>
           </ul>
+          <a href="notFound.html">
           <button
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
           >
             Download
           </button>
+          </a>
         </div>
       </div>
       <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
@@ -71,16 +80,18 @@
           <h1 class="my-4 text-5xl font-bold leading-tight">
              .
           </h1>
+          <br>
           <p class="leading-normal text-2xl mb-8">
             Manage your recipe book and pantry all in one place, never not know what to make again!
           </p>
           <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
             Download
           </button>
+          
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 py-6 text-center">
-          <img class="w-full md:w-4/5 z-50" src="hero.png" />
+          
         </div>
       </div>
     </div>
@@ -117,7 +128,7 @@
               The ultimate cooking assistant
             </h3>
             <p class="text-gray-600 mb-8">
-              Pantry++ is an application that assists in managing and tracking your food as well as recipes. It gives recipes that you can cook based on whats currently in your possession.
+              Pantry++ is an application that assists in managing and tracking your food as well as recipes. It gives recipes that you can cook based on what's currently in your possession.
               <br />
               <br />
 
@@ -418,6 +429,7 @@
                 <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
               </p>
             </div>
+            <div id="Pricing"></div>
           </div>
         </div>
       </div>
@@ -446,9 +458,9 @@
           </div>
           <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
             <div class="flex items-center justify-start">
-              <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              <!-- <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                 Action
-              </button>
+              </button> -->
             </div>
           </div>
         </div>
@@ -468,9 +480,9 @@
           </div>
           <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
             <div class="flex items-center justify-center">
-              <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              <!-- <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                 Action
-              </button>
+              </button> -->
             </div>
           </div>
         </div>
@@ -490,15 +502,15 @@
           </div>
           <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
             <div class="flex items-center justify-end">
-              <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              <!-- <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                 Action
-              </button>
+              </button> -->
             </div>
           </div>
         </div>
       </div>
     </section>
-
+    <div  id="Get_In_Contact"></div>
     <!-- Change the colour #f8fafc to match the previous section colour -->
     <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -521,6 +533,7 @@
         </g>
       </g>
     </svg>
+
     <section class="container mx-auto text-center py-6 mb-12">
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
         Take our survey
@@ -529,14 +542,13 @@
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
       <h3 class="my-4 text-3xl leading-tight">
-        Checkout if Pantry ++ is right for you!
+        Check out if Pantry ++ is right for you!
       </h3>
       <form action="https://forms.gle/AyCXEsppyr8pa8p78">
         <button type="submit" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
         Survey
         </button>
       </form>
-
 
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
         Get in contact
@@ -545,12 +557,19 @@
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
       <h3 class="my-4 text-3xl leading-tight">
-        Get in contact with to learn more about Pantry ++!
+        Get in contact with us to learn more about Pantry ++!
       </h3>
-      <p>Email: </p>
-      <form >
-        &nbsp;<input type="email" style="background-color:black;">
-      </form>
+      <!-- <p>Email: </p> -->
+      <div style="margin-left: 43%; margin-right: 43%; text-align:left;">
+        <form >
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" ><br><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname"><br><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email"><br>
+        </form>
+      </div>
       <form action="https://paytonjhall.github.io/paytonjh.github.io/">
         <button type="submit" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
           Submit
@@ -565,13 +584,13 @@
             <p class="uppercase text-gray-500 md:mb-6">Links</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">FAQ</a>
+                <a href="notFound.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">FAQ</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Help</a>
+                <a href="notFound.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Help</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Support</a>
+                <a href="notFound.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Support</a>
               </li>
             </ul>
           </div>
@@ -579,10 +598,10 @@
             <p class="uppercase text-gray-500 md:mb-6">Legal</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
+                <a href="notFound.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
+                <a href="notFound.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
               </li>
             </ul>
           </div>
@@ -590,27 +609,27 @@
             <p class="uppercase text-gray-500 md:mb-6">Social</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
+                <a href="notFound.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Linkedin</a>
+                <a href="notFound.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Linkedin</a>
               </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <!-- <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Twitter</a>
-              </li>
+              </li> -->
             </ul>
           </div>
           <div class="flex-1">
             <p class="uppercase text-gray-500 md:mb-6">Company</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Official Blog</a>
+                <a href="notFound.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Official Blog</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">About Us</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a>
+                <a href="#Get_In_Contact" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact Us</a>
               </li>
             </ul>
           </div>
